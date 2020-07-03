@@ -19,19 +19,19 @@ fs.appendFile('myname.txt',Math.floor(Math.random()*(20-1))+1+' This is from nod
 fs.readFile('myname.txt','utf-8', function(err,data) {
     if(err) throw err;
     console.log(data)
-})
+})*/
 
 fs.readFile('db.json','utf-8', function(err,data) {
     if(err) throw err;
     console.log(data)
 })
 
-fs.rename('myname.txt','myName.txt', function(err) {
+/*fs.rename('myname.txt','myName.txt', function(err) {
     if(err) throw err;
     console.log('file renamed')
-})*/
+})
 
 fs.unlink('myName.txt', function(err) {
     if(err) throw err;
     console.log('file deleted')
-})
+})*/

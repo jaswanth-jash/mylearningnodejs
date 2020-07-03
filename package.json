@@ -1,0 +1,23 @@
+{
+  "name": "mytest",
+  "version": "1.0.0",
+  "description": "this is about learning nodejs",
+  "main": "api.js",
+  "scripts": {
+    "start": "node api.js",
+    "jashu":"nodemon http1.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaswanth-jash/mylearningnodejs.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaswanth-jash/mylearningnodejs/issues"
+  },
+  "homepage": "https://github.com/jaswanth-jash/mylearningnodejs#readme"
+}

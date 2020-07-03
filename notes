@@ -1,0 +1,17 @@
+////////API/////    
+
+API is the acronym for Application Programming Interface. 
+
+It is a software interface that allows two applications to interact with each other 
+without any user intervention.
+
+APIs provides product or service to communicate with other products and 
+services without having to know how they're implemented.
+
+** real api is fast then localhost api
+
+
+/////////////
+     nodemon
+          ////////////////
+          this npm package do get the change in my application and restart the applications
