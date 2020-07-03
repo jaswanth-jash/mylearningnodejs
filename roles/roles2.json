@@ -1,0 +1,32 @@
+[
+    {
+        "id":101,
+        "class":"10th",
+        "school":"Jnana jyothi vidya mandir",
+        "place":"puttur"
+    },
+    {
+        "id":102,
+        "class":"12th",
+        "college":"Narayana junior college",
+        "place":"nellore"
+    },
+    {
+        "id":103,
+        "class":"B.E-B.Tech",
+        "college":"RMD Engineering college",
+         "place":"chennai"
+    },
+    {
+        "id":104,
+        "course":"java-python",
+        "institution":"ABC Technology",
+        "place":"banglore"
+    },
+    {
+        "id":105,
+        "course":"nodejs/reactjs",
+         "institution":"naresh it",
+         "place":"hyderabad" 
+    }
+]

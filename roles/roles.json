@@ -1,0 +1,22 @@
+[
+    {
+        "id":1,
+        "name":"System_admin"
+    },
+    {
+        "id":2,
+        "name":"managment"
+    },
+    {
+       "id":3,
+       "name":"Tenant Managment" 
+    },
+    {
+        "id":4,
+        "name":"Teacher"
+    },
+    {
+        "id":5,
+        "name":"student"
+    }
+]
