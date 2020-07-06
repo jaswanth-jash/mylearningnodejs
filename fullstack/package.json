@@ -4,12 +4,14 @@
   "description": "this is about node",
   "main": "index.js",
   "scripts": {
-    "start":"node app1.js",
-    "jashu":"nodemon env1.js"
+    "start": "node app1.js",
+    "jashu": "nodemon routers1.js"
   },
   "author": "developerfunnel",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "chalk": "^4.1.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
   }
 }
