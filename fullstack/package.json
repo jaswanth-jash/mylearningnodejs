@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node app1.js",
-    "jashu": "nodemon routers1.js"
+    "jashu": "nodemon state.js"
   },
   "author": "developerfunnel",
   "license": "ISC",

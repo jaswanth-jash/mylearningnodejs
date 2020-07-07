@@ -15,3 +15,39 @@ services without having to know how they're implemented.
      nodemon
           ////////////////
           this npm package do get the change in my application and restart the applications
+
+          ///// morgan//
+         npm i morgan
+                
+          // for logs
+          app.use(morgan('tiny'))
+          -> it means which place user hit and it tells how much time to take response back to 
+          the request.
+
+          ///// chalk/////
+
+          npm i chalk
+        -> to change the colour in cmd 
+
+        //////////// process.env.port/////////////
+        -->> in each server suppose dev pord UAT are Q8 we have different port numbers on which applications
+        run because it not like that every server in real time server is not same .if i have different port
+         numbers on different different environment by deflaut it pick that environment variable from that 
+         server and run on that port number.
+
+         //////EXPRESS////
+         Express.js is a Node js web application server framework, which is specifically designed for 
+         building single-page, multi-page, and hybrid web applications.
+         It has become the standard server framework for node.js. Express is the backend part 
+         of something known as the MEAN stack.
+
+         /////// ROUTERS ////
+         Routing determine the way in which an application responds to a client request to a particular endpoint.
+
+         For example, 
+         a client can make a GET, POST, PUT or DELETE http request for various URL such as the ones shown below;
+
+
+
+
+
