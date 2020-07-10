@@ -211,7 +211,7 @@ var citys = [
     }
 ]
 
- app.get('/',function(req,res){
+ app.post('/',function(req,res){
      res.send("<h1>now i am developing expree code</h1>")
  })
 
