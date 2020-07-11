@@ -51,7 +51,7 @@ app.put('/add/update',function(req,res){
     res.send('/add/update')
 })
 app.delete('/add/update/name',function(req,res){
-    res.send('/add/update/name')
+    res.send(employees)
 })
 app.listen(port,function(err){
     if(err) throw err
