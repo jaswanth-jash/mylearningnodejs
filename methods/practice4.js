@@ -7,17 +7,17 @@ var chalk = require("chalk")
 
 var laptops=[
     
-    { "CompanyName":"Lennovo",
+    { "companyName":"Lennovo",
        "Color":"Blue",
        "OS":"Windows",
         "Core":"Intel"
     },
-    { "CompanyName":"Dell",
+    { "companyName":"Dell",
        "Color":"BLack",
        "OS":"Windows 10",
         "Core":"Intel-5"
     },
-    { "CompanyName":"apple",
+    { "companyName":"apple",
        "Color":"White",
        "OS":"mac",
         "Core":"Intel-7"
@@ -26,22 +26,31 @@ var laptops=[
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-
+//logs
 app.use(morgan('tiny'))
 
 app.get('/',function(req,res){
     res.send(laptops)
 })
+app.get('/company/brand/:name/:Color',function(req,res){
+    const laptop = laptops.find(laptop => (laptop.companyName ===(req.params.name))&&(laptop.Color ===(req.params.Color)));
+ 
+if (!laptop) res.status(404).send('<h2 style="font-family: Malgun Gothic; color: darkred;">Ooops... Cant find what you are looking for!</h2>');
+res.send(laptop);
+    /*console.log(req.params.name)
+    res.send(laptops)*/
+})
 app.post('/company',function(req,res){
     console.log(req.body)
-    res.send('/company')
+    res.send(req.body)
 })
 app.put('/company/brand',function(req,res){
     console.log(req.body)
-    res.send('/company/brand')
+    res.send(req.body)
 })
 app.delete('/company/brand/name',function(req,res){
-    res.send(laptops)
+    console.log(req.body)
+     res.send(laptops)
 })
 app.listen(port,function(err){
     if(err) throw err
