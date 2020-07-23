@@ -5,7 +5,7 @@
   "main": "names.js",
   "scripts": {
     "start": "node get1.js",
-    "dev": "nodemon switch.js"
+    "dev": "nodemon loops.js"
   },
   "author": "developerfunnel",
   "license": "ISC",
