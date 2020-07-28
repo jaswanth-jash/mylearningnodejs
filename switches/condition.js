@@ -1,4 +1,5 @@
 // which out switch statements
+
 var num1 = 30;
 var num2 = 30;
 if (num1 > num2) {
